@@ -1,8 +1,11 @@
 # django-zebraprinters
 Print ZPL to Zebra Printers
 
+This is a beta app I am using in an inventory system.  It was written for Django 1.9x and intended for sending the ZPL TCP from the server to the network Zebra printer.
+
+Use/Modify at your own risk.  There is currently no resending/logging of data sent.
+
 **Requires Celery !!**
-I am planning to make this a setting.
 
 ## How To Use
 ```
