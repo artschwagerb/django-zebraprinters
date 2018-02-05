@@ -7,6 +7,12 @@ Use/Modify at your own risk.  There is currently no resending/logging of data se
 
 **Requires Celery !!**
 
+## Installation
+- Add the app to your project.
+- Run a migration to create the database tables.
+- Create a Printer(name and ip of Zebra Printer, default port is 9100)
+- Create a Document_Template(using Django template formatting to inject variables into your ZPL string).
+
 ## How To Use
 ```
 from zebraprinters import models as zebraprinters
