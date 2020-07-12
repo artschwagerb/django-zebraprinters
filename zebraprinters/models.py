@@ -7,7 +7,6 @@ from django.utils import timezone
 from django.contrib.auth.models import User, Group
 from django.contrib.contenttypes.models import ContentType
 
-from htps.models import Building
 from .tasks import task_print_zpl
 
 def print_label(printer_slug, doc_type_slug, context_dict=None, **kwargs):
